@@ -18,7 +18,7 @@ function adicionarAluno(event) {
     }
 
     // Cálculo da média
-    const media = (nota1 + nota2) / 2;
+    const media = (nota1 + nota2 + nota3) / 3;
 
     // Determinar se está aprovado ou reprovado
     const status = media >= 6 ? "Aprovado" : "Reprovado";
